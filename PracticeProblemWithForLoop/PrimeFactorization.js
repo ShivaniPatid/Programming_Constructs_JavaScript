@@ -1,5 +1,5 @@
 let n=315;
-for(i=2;i<n;i++)
+for(i=2;i*i<=n;i++)
 {
     while(n%i==0)
     {
